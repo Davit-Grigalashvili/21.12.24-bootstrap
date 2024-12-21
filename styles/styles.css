@@ -1,0 +1,74 @@
+body {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.navbar-expand-lg {
+    background-color: #fbc946 !important;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    align-items: center;
+}
+
+.bg-body-tertiary {
+    width: 100vw;
+}
+
+.carusel {
+    font-size: 4rem;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.carousel-item {
+    max-width: 450px;
+}
+
+.colored-links {
+    font-size: 2.3rem;
+}
+
+.spinners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    width: 400px;
+}
+
+.ratio {
+    width: 900px;
+    height: 600px;
+}
+
+.colapse-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.background-color-with-percentage {
+    background-color: red;
+
+}
